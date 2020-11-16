@@ -9,7 +9,6 @@ import datetime
 import numpy as np
 import matplotlib.pyplot as plt
 import requests
-from sklearn.compose import TransformerMixin, BaseEstimator
 
 def fetch_url(url):
     '''returns url as df'''
