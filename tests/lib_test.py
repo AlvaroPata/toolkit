@@ -10,4 +10,4 @@ import pytest
 
 def test_fetch_url():
     url = 'http://iex.lewagon.com/stable/stock/'
-    assert type(fetch_url(url)) == 'pandas.core.frame.DataFrame'
+    assert type(fetch_url(url)) == pandas.core.frame.DataFrame
