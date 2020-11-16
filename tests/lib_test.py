@@ -9,5 +9,6 @@ from toolkit.lib import *
 import pytest
 
 def test_fetch_url():
-    url = 'http://iex.lewagon.com/stable/stock/'
-    assert type(fetch_url(url)) == pandas.core.frame.DataFrame
+    url = 'http://iex.lewagon.com/stable/stock/tsla/news'
+    assert isinstance(fetch_url(url), pd.DataFrame)
+
